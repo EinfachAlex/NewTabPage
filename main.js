@@ -23,7 +23,12 @@ function updateCryptoTicker() {
 
 function updateClock(){
     var time = new Date();
+
     document.getElementsByClassName('clock')[0].innerHTML = time.getHours() + " " + time.getMinutes();
+
+    if (time.getMinutes() < 10){
+        document.getElementsByClassName('clock')[0].innerHTML = time.getHours() + " 0" + time.getMinutes();
+    }
 }
 
 updateCryptoTicker();
