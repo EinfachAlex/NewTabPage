@@ -1,0 +1,37 @@
+body {
+    background-image: url("gif.gif");
+}
+
+.heading {
+    font-size: 1.75em;
+}
+
+.pricetracker span {
+    margin-left: 5%;
+    font-size: 150%;
+}
+
+.pricetracker {
+    float:left;
+    color: white;
+    background-color: #36393E;
+    margin-left: 17%;
+    margin-top: 8%;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 1em;
+    width: 200px;
+}
+
+.pricechange {
+    float: right;
+    margin-right: 5%;   
+}
+
+.clock {
+    float:right;
+    color: white;
+    margin-right: 15%;
+    margin-top: 3%;
+    font-size: 15em;
+
+}
