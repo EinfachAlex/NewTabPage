@@ -1,5 +1,5 @@
-body {
-    background-image: url("gif.gif");
+a {
+    color: white;
 }
 
 .heading {
@@ -12,7 +12,7 @@ body {
 }
 
 .pricetracker {
-    float:left;
+    float: left;
     color: white;
     background-color: #36393E;
     margin-left: 17%;
@@ -24,11 +24,11 @@ body {
 
 .pricechange {
     float: right;
-    margin-right: 5%;   
+    margin-right: 5%;
 }
 
 .clock {
-    float:right;
+    float: right;
     color: white;
     margin-right: 15%;
     margin-top: 3%;

@@ -1,0 +1,19 @@
+{
+    "background": {
+        "night": 0,
+        "sunrise": 8,
+        "morning": 9,
+        "afternoon": 14,
+        "sunset": 17,
+        "evening": 18,
+        "night1": 24,
+        "pictures": {
+            "night": 207,
+            "sunrise": 72,
+            "morning": 156,
+            "afternoon": 139,
+            "sunset": 72,
+            "evening": 187
+        }
+    }
+}
